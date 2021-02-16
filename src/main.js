@@ -18,9 +18,11 @@ window.onload = function() {
   document.querySelector("#number").innerHTML = num;
   document.querySelector("#symbol2").innerHTML = symBotton;
 
-  if (symTop == "♦" || symBotton == "♥") {
+  if (symTop == simbolo[0] || symBotton == simbolo[3]) {
     document.getElementById("symbol1").style.color = "red";
     document.getElementById("symbol2").style.color = "red";
   } else {
+    document.getElementById("symbol1").style.color = "black";
+    document.getElementById("symbol2").style.color = "black";
   }
 };
