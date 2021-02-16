@@ -1,1 +1,45 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.wrapper {
+  background: white;
+  width: 375px;
+  height: 600px;
+  margin: 0 auto; /*Centrar objeto*/
+  margin-top: 125px;
+  border-radius: 3%;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 25%;
+}
+
+#symbol1 {
+  font-size: 115px;
+}
+
+#number {
+  font-size: 100px;
+  margin: 0 auto;
+}
+
+#symbol2 {
+  font-size: 115px;
+  transform: rotate(180deg);
+}
+
+/*--------------------------*/
