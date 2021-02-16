@@ -11,21 +11,25 @@ body {
   border-radius: 3%;
 }
 .header {
-  display: flex;
   width: 100%;
   height: 25%;
+  display: flex;
+  align-items: center;
 }
 
 .content {
-  display: flex;
   width: 100%;
   height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
-  display: flex;
   width: 100%;
   height: 25%;
+  justify-content: left;
+  align-items: center;
 }
 
 #symbol1 {
@@ -33,8 +37,7 @@ body {
 }
 
 #number {
-  font-size: 100px;
-  margin: 0 auto;
+  font-size: 140px;
 }
 
 #symbol2 {
