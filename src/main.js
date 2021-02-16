@@ -17,4 +17,10 @@ window.onload = function() {
   document.querySelector("#symbol1").innerHTML = symTop;
   document.querySelector("#number").innerHTML = num;
   document.querySelector("#symbol2").innerHTML = symBotton;
+
+  if (symTop == "♦" || symBotton == "♥") {
+    document.getElementById("symbol1").style.color = "red";
+    document.getElementById("symbol2").style.color = "red";
+  } else {
+  }
 };
